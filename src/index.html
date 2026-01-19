@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search</title>
+  </head>
+  <body>
+    <form class="search-form">
+      <input
+        type="text"
+        name="query"
+        placeholder="Search images..."
+        autocomplete="off"
+        required
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="loader is-hidden"></div>
+
+    <ul class="gallery"></ul>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
